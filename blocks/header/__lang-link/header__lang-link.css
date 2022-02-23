@@ -2,8 +2,9 @@
   display: flex;
   list-style: none;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .header__lang-link:nth-child(odd) {
-  margin-right: 1.125rem;
+  margin-right: 18px;
 }
