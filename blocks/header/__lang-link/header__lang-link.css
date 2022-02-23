@@ -1,0 +1,9 @@
+.header__lang-link {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header__lang-link:nth-child(odd) {
+  margin-right: 1.125rem;
+}

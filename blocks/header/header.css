@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin: 1rem 1rem 0;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1024px) {
+  .header {
+    margin: 1.75rem 1.5rem 0;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .header {
+    margin: 1.75rem 3rem 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    margin: 1.75rem 3rem 0;
+  }
+}
